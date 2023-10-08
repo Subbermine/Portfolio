@@ -1,0 +1,78 @@
+/* grey #F0F0F0 */
+/* Dark Blue #213555 */
+/* Blue #4F709C */
+/* Skin #E5D283  */
+*{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    background-color: #F0F0F0;
+    padding: 1rem;
+}
+nav li:hover{
+    background-color: #213555;
+    color: #F0F0F0;
+}
+
+nav  a{
+    text-decoration: none;
+    color:inherit;
+    width: 33%;
+    text-align: center;
+}
+
+nav{
+    background-color: #F0F0F0;
+    display: block;
+    width: 100%;
+    color: #213555;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+#innersection #pcont{
+    width: 50%;
+    color: #111d30;
+}
+#innersection P{
+    width: 70%;
+    border-right: 1px solid black;
+    padding-right: 5rem;
+    height: 100%;
+}
+#innersection img{
+    height:20rem;
+}
+#innersection{
+    /* padding: 1rem; */
+    background-color: white;
+    height:23rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#AboutME{
+    padding: 4rem  2rem 4rem 1rem;
+    background-color: #4F709C;
+    border-bottom: .1rem solid black;
+}
+li{
+    list-style: none;  
+}
+#MYProjects li {
+    margin:.3rem  0rem;
+    display: flex;
+}
+
+    #MYProjects{margin:1rem 0.2rem;}
+    @media only screen and (min-width:1000px){
+        #innersection P,#MYProjects span{
+            font-size: 1.2rem;
+        }
+    }
